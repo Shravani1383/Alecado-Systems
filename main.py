@@ -53,7 +53,7 @@ def display_images(original, processed):
     axes[0].axis('off')
 
     axes[1].imshow(processed, cmap='gray')
-    axes[1].set_title('Processed Image')
+    axes[1].set_title('Floor Plan')
     axes[1].axis('off')
 
     plt.tight_layout()
@@ -67,7 +67,7 @@ def select_image():
 
 def create_ui():
     root = Tk()
-    root.title("Image Edge Detection")
+    root.title("3D Image To Floor Plan Generator")
 
     label = Label(root, text="Select an image to process and display")
     label.pack(pady=20)
