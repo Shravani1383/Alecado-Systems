@@ -2,7 +2,7 @@
 ## Tkinter Application to convert your 3D designs to 2D 
 ## Getting Started
 ```
-clone git repository
+git clone https://github.com/Shravani1383/Alecado-Systems.git
 ```
 ```
 pip install opencv-python
